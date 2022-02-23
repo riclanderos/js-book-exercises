@@ -3,11 +3,11 @@ console.log("hi");
 console.log("how do you do");
 console.log("Quite all right");
 
-function say(words) {
+function say(words = "hello") {
   console.log(words + "!");
 }
 
-say("hello");
+say();
 say("hi");
 say("how are you");
 say("I'm fine");
