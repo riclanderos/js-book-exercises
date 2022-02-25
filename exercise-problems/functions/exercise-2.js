@@ -4,7 +4,7 @@ last names in separate invocations; the function should return the appropriate n
 as a string. Use the return values to greet the user with their full name. */
 
 function getName(prompt) {
-  readlineSync = require("readline-Sync");
+  let readlineSync = require("readline-sync");
   let name = readlineSync.question(prompt);
   return name;
 }
